@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tNq-7j-ouL">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="6Gk-OS-h11">
+            <objects>
+                <viewController id="tNq-7j-ouL" customClass="ViewController" customModule="StackedNotifications_Demo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fHF-Aw-taR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rK4-kq-tn7">
+                                <rect key="frame" x="152.5" y="20" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="M7D-Ym-7Jr"/>
+                                </constraints>
+                                <state key="normal" title="Top">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="tNq-7j-ouL" eventType="touchUpInside" id="Ckj-51-EUA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXa-pa-jU1">
+                                <rect key="frame" x="16" y="20" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="izo-zX-emx"/>
+                                </constraints>
+                                <state key="normal" title="T. Left">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="tNq-7j-ouL" eventType="touchUpInside" id="ir7-o0-afk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5AW-I0-NRp">
+                                <rect key="frame" x="16" y="617" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="8TT-vC-Q1A"/>
+                                </constraints>
+                                <state key="normal" title="B. Left">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="tNq-7j-ouL" eventType="touchUpInside" id="hlQ-Tt-8lb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHG-QP-TfP">
+                                <rect key="frame" x="152.5" y="617" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="gbj-EQ-R28"/>
+                                </constraints>
+                                <state key="normal" title="Bottom">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="tNq-7j-ouL" eventType="touchUpInside" id="mmZ-aI-yUc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjz-IB-g1w">
+                                <rect key="frame" x="289" y="20" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="NJc-yE-ynX"/>
+                                </constraints>
+                                <state key="normal" title="T. Right">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="tNq-7j-ouL" eventType="touchUpInside" id="rv3-3F-3dq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bf4-Pm-IAG">
+                                <rect key="frame" x="285" y="617" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="vlL-pa-FNI"/>
+                                </constraints>
+                                <state key="normal" title="B. Right">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTap:" destination="tNq-7j-ouL" eventType="touchUpInside" id="Fc5-De-tRC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gsW-SB-ecQ"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pjz-IB-g1w" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rK4-kq-tn7" secondAttribute="trailing" constant="8" symbolic="YES" id="0PP-EA-Nhq"/>
+                            <constraint firstItem="5AW-I0-NRp" firstAttribute="leading" secondItem="fHF-Aw-taR" secondAttribute="leadingMargin" id="0cA-8A-lAq"/>
+                            <constraint firstItem="gsW-SB-ecQ" firstAttribute="bottom" secondItem="pHG-QP-TfP" secondAttribute="bottom" constant="20" id="1K7-pY-nIR"/>
+                            <constraint firstItem="tXa-pa-jU1" firstAttribute="baseline" secondItem="rK4-kq-tn7" secondAttribute="baseline" id="28m-G1-fxQ"/>
+                            <constraint firstItem="gsW-SB-ecQ" firstAttribute="trailing" secondItem="Bf4-Pm-IAG" secondAttribute="trailing" constant="20" id="8ax-mX-lmK"/>
+                            <constraint firstItem="rK4-kq-tn7" firstAttribute="centerX" secondItem="fHF-Aw-taR" secondAttribute="centerX" id="Q33-i4-pan"/>
+                            <constraint firstItem="gsW-SB-ecQ" firstAttribute="bottom" secondItem="Bf4-Pm-IAG" secondAttribute="bottom" constant="20" id="QHc-EX-e2P"/>
+                            <constraint firstItem="5AW-I0-NRp" firstAttribute="trailing" secondItem="tXa-pa-jU1" secondAttribute="trailing" id="RpJ-DU-O3O"/>
+                            <constraint firstItem="Bf4-Pm-IAG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="pHG-QP-TfP" secondAttribute="trailing" constant="8" symbolic="YES" id="Sby-Xc-iIE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pjz-IB-g1w" secondAttribute="trailing" id="SkA-37-cnt"/>
+                            <constraint firstItem="rK4-kq-tn7" firstAttribute="top" secondItem="gsW-SB-ecQ" secondAttribute="top" constant="20" id="UR2-Fp-pL1"/>
+                            <constraint firstItem="pjz-IB-g1w" firstAttribute="top" secondItem="gsW-SB-ecQ" secondAttribute="top" constant="20" id="Wy0-J3-Ixt"/>
+                            <constraint firstItem="5AW-I0-NRp" firstAttribute="baseline" secondItem="pHG-QP-TfP" secondAttribute="baseline" id="bIH-eb-dgk"/>
+                            <constraint firstItem="tXa-pa-jU1" firstAttribute="leading" secondItem="fHF-Aw-taR" secondAttribute="leadingMargin" id="dap-Bz-iX7"/>
+                            <constraint firstItem="pHG-QP-TfP" firstAttribute="centerX" secondItem="fHF-Aw-taR" secondAttribute="centerX" id="yh2-zI-KeP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lgK-sc-5cQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1698" y="-206"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "StackedNotifications",
+        "repositoryURL": "https://github.com/hakkabon/StackedNotifications.git",
+        "state": {
+          "branch": null,
+          "revision": "27544fc57ac9c6e80655e78d8d9e3c435310934f",
+          "version": "1.0.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

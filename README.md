@@ -1,5 +1,5 @@
 # StackedNotifications Demo
-Simple demo app that shows how to integrate [*StackedNotifications* ](https://github.com/hakkabon/StackedNotifications) into your application.
+Simple demo app that shows how to integrate [StackedNotifications ](https://github.com/hakkabon/StackedNotifications) into your application.
 
 ## Import Statement
 First, add an import statement to *StackedNotifications* like so:
